@@ -57,5 +57,14 @@ public class SimpleBot {
     static void end() {
         System.out.println("Congratulations, have a nice day!");
     }
+    
+    static void run() {
+        greet("Jarvis", "2020");
+        remindName();
+        guessAge();
+        count();
+        test();
+        end();
+    }
 
 }
